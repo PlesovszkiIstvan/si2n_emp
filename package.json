@@ -1,7 +1,6 @@
 {
   "name": "nodejstemplate",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,5 +14,14 @@
   },
   "devDependencies": {
     "lite-server": "^2.6.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlesovszkiIstvan/dolgnev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PlesovszkiIstvan/dolgnev/issues"
+  },
+  "homepage": "https://github.com/PlesovszkiIstvan/dolgnev#readme",
+  "description": ""
 }
