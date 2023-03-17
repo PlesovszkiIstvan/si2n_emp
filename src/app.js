@@ -1,10 +1,41 @@
-const tbody = document.querySelector('#tbody');
-var dolgozoLista = [
-    {name: 'Pisti', city: 'Szolnok', salary: 385},
-    {name: 'Mari', city: 'Szeged', salary: 384},
-    {name: 'Kati', city: 'Szolnok', salary: 383},
-    {name: 'Dani', city: 'Szeged', salary: 382},
-    {name: 'Lili', city: 'Szolnok', salary: 381}
-];
+const doc = {
+    tbody: null
+};
 
-console.log(tbody);
+const state = {
+    dolgozoLista: []
+};
+
+window.addEventListener('load',() => {
+    init();
+    console.log(doc.tbody);
+    render();
+});
+
+function init(){
+    doc.tbody = document.querySelector('#tbody');
+    state.dolgozoLista = [
+    {id:1, name: 'Pisti', city: 'Szolnok', salary: 385},
+    {id:2, name: 'Mari', city: 'Szeged', salary: 384},
+    {id:3, name: 'Kati', city: 'Szolnok', salary: 383},
+    {id:4, name: 'Dani', city: 'Szeged', salary: 382},
+    {id:5, name: 'Lili', city: 'Szolnok', salary: 381}
+]};
+
+function render(){
+    let rows ='';
+    state.dolgozoLista.forEach( dolgozo=> {
+        console.log(dolgozo.name);
+        rows +=`
+        <tr>
+            <td>${dolgozo.id}</td>
+            <td>${dolgozo.name}</td>
+            <td>${dolgozo.city}</td>
+            <td>${dolgozo.salary}</td>
+
+        </tr>`;
+        });
+        doc.tbody.innerHTML = rows;
+    
+};
+

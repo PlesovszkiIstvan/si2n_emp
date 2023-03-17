@@ -1,0 +1,60 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Erős István",
+      "city": "Szolnok",
+      "salary": 386
+    },
+    {
+      "id": 2,
+      "name": "Bizonyos Ferenc",
+      "city": "Szeged",
+      "salary": 386
+    },
+    {
+      "id": 3,
+      "name": "Nagy Árpád",
+      "city": "Pécs",
+      "salary": 386
+    },
+    {
+      "id": 4,
+      "name": "Beterp Eszter",
+      "city": "Pécs",
+      "salary": 386
+    },
+    {
+      "id": 5,
+      "name": "Kikala Pál",
+      "city": "Jobbágyi",
+      "salary": 386
+    },
+    {
+      "name": "Pangó Katalin",
+      "city": "Miskolc",
+      "salary": 391,
+      "id": 6
+    },
+    {
+      "name": "Bő Ödön",
+      "city": "Miskolc",
+      "salary": 391,
+      "id": 7
+    }
+  ],
+  "ranks": [
+    {
+      "id": 1,
+      "name": "lapátos"
+    },
+    {
+      "id": 2,
+      "name": "áru összeállító"
+    },
+    {
+      "id": 3,
+      "name": "szoftverfejlesztő"
+    }
+  ]
+}
